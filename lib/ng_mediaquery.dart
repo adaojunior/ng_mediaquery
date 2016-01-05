@@ -28,6 +28,6 @@ class MediaQuery implements OnDestroy {
   }
 
   ngOnDestroy() {
-    _subscription.cancel();
+    _subscription?.cancel();
   }
 }
