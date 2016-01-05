@@ -1,6 +1,6 @@
 name: ng_mediaquery
 description: A Angular 2 directive that can be used to data bind to a CSS media query.
-version: 0.1.0
+version: 0.1.1
 author: Adao Junior <itsjunnior@gmail.com>
 homepage: https://github.com/adaojunior/ng_mediaquery
 environment:
@@ -9,3 +9,5 @@ dependencies:
   angular2: 2.0.0-beta.0
 dev_dependencies:
   browser: ^0.10.0
+transformers:
+- angular2
